@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "app",
+    "paths": {
+      "@/components/screens": ["components/screens"],
+      "@/shared/constants": ["shared/constants"],
+      "@/shared/colors": ["shared/colors"]
+    }
+  }
+}
