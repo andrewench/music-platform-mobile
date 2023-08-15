@@ -1,3 +1,8 @@
+import {
+  Inter_300Light,
+  Inter_400Regular,
+  Inter_500Medium,
+} from '@expo-google-fonts/inter'
 import { useFonts } from 'expo-font'
 import { StatusBar } from 'expo-status-bar'
 
@@ -7,13 +12,13 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { Login } from '@/components/screens'
 
 const App: FC = () => {
-  const [loaded] = useFonts({
-    'Inter-Light': require('./app/assets/fonts/Inter-Light.ttf'),
-    'Inter-Medium': require('./app/assets/fonts/Inter-Medium.ttf'),
-    'Inter-Regular': require('./app/assets/fonts/Inter-Regular.ttf'),
+  const [isFontLoaded, isFontError] = useFonts({
+    Inter_300Light,
+    Inter_400Regular,
+    Inter_500Medium,
   })
 
-  if (!loaded) return null
+  if (!isFontLoaded && !isFontError) return null
 
   return (
     <SafeAreaView>

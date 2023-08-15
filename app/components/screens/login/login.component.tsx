@@ -10,7 +10,8 @@ import { AppColors } from '@/shared/colors'
 export const Login: FC = () => {
   return (
     <Layout>
-      <AppTitle style={{ color: AppColors.GREY_1, fontFamily: 'Inter-Light' }}>
+      <AppTitle
+        style={{ color: AppColors.GREY_1, fontFamily: 'Inter_300Light' }}>
         {AppConstant.APP_NAME}
       </AppTitle>
     </Layout>
