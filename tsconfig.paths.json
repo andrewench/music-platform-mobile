@@ -3,6 +3,8 @@
     "baseUrl": "app",
     "paths": {
       "@/components/screens": ["components/screens"],
+      "@/components/layout": ["components/layout"],
+      "@/components/ui": ["components/ui"],
       "@/shared/constants": ["shared/constants"],
       "@/shared/colors": ["shared/colors"]
     }

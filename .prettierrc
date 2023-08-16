@@ -12,6 +12,8 @@
     "(.*expo.*)",
     "(.*react.*)",
     "^@/components/screens",
+    "^@/components/layout",
+    "^@/components/ui",
     "^@/shared/constants",
     "^@/shared/colors"
   ],
