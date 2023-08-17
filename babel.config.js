@@ -9,6 +9,7 @@ module.exports = function (api) {
           alias: {
             '@/components/screens': './app/components/screens',
             '@/components/layout': './app/components/layout',
+            '@/components/providers': './app/components/providers',
             '@/components/ui': './app/components/ui',
             '@/shared/constants': './app/shared/constants',
             '@/shared/colors': './app/shared/colors',

@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-
 import { FC } from 'react'
 import { Text, View } from 'react-native'
+
+import { styled } from 'styled-components'
 
 import { Flex, ScreenLayout } from '@/components/layout'
 
@@ -17,7 +17,10 @@ export const Login: FC = () => {
       <ScreenLayout>
         <StyledFlex direction="column" align="center" content="center">
           <AppTitle
-            style={{ color: AppColors.GREY_1, fontFamily: 'Inter_400Regular' }}>
+            style={{
+              color: AppColors.GREY_1,
+              fontFamily: 'Inter_400Regular',
+            }}>
             {AppConstant.APP_NAME}
           </AppTitle>
 

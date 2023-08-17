@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-
 import { FC, PropsWithChildren } from 'react'
 import { View } from 'react-native'
+
+import { styled } from 'styled-components'
 
 interface IFlex {
   align: 'start' | 'center' | 'end'

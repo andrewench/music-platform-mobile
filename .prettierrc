@@ -8,11 +8,12 @@
   "bracketSameLine": true,
   "arrowParens": "avoid",
   "importOrder": [
-    "<THIRD_PARTY_MODULES>",
     "(.*expo.*)",
     "(.*react.*)",
+    "<THIRD_PARTY_MODULES>",
     "^@/components/screens",
     "^@/components/layout",
+    "^@/components/providers",
     "^@/components/ui",
     "^@/shared/constants",
     "^@/shared/colors"

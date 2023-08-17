@@ -4,6 +4,7 @@
     "paths": {
       "@/components/screens": ["components/screens"],
       "@/components/layout": ["components/layout"],
+      "@/components/providers": ["components/providers"],
       "@/components/ui": ["components/ui"],
       "@/shared/constants": ["shared/constants"],
       "@/shared/colors": ["shared/colors"]

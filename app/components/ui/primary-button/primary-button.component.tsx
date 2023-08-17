@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-
 import { FC, PropsWithChildren } from 'react'
 import { Pressable, Text } from 'react-native'
+
+import { styled } from 'styled-components'
 
 import { AppColors } from '@/shared/colors'
 
