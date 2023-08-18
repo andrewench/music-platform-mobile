@@ -12,15 +12,17 @@ interface IFlex {
     | 'space-around'
     | 'space-evenly'
   direction?: 'row' | 'row-reverse' | 'column' | 'column-reverse'
+  gap?: number
 }
 
 export const Flex: FC<PropsWithChildren<IFlex>> = ({
   direction = 'row',
+  gap = 5,
   children,
   ...props
 }) => {
   return (
-    <StyledBox direction={direction} {...props}>
+    <StyledBox direction={direction} gap={gap} {...props}>
       {children}
     </StyledBox>
   )
@@ -31,5 +33,5 @@ const StyledBox = styled(View)<IFlex>`
   flex-direction: ${({ direction }) => direction};
   align-items: ${({ align }) => align};
   justify-content: ${({ content }) => content};
-  height: 100%;
+  gap: ${({ gap }) => `${gap}px`};
 `

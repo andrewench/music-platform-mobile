@@ -1,2 +1,4 @@
-export { TextField } from './text-field/text-field.component'
-export { PrimaryButton } from './primary-button/primary-button.component'
+export { TextField } from './text-field.component'
+export { PrimaryButton } from './primary-button.component'
+export { BackLink } from './back-link.component'
+export { FormHelper } from './form-helper.component'

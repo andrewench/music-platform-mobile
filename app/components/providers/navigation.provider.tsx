@@ -2,19 +2,21 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { FC } from 'react'
 
-import { Login } from '@/components/screens'
+import { Login, Restore, SignUp } from '@/components/screens'
 
-const Stack = createNativeStackNavigator()
+const { Navigator, Screen } = createNativeStackNavigator()
 
 export const NavigationProvider: FC = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator
+      <Navigator
         screenOptions={{
           headerShown: false,
         }}>
-        <Stack.Screen name="Login" component={Login} />
-      </Stack.Navigator>
+        <Screen name="login" component={Login} />
+        <Screen name="signup" component={SignUp} />
+        <Screen name="restore" component={Restore} />
+      </Navigator>
     </NavigationContainer>
   )
 }

@@ -13,6 +13,7 @@ module.exports = function (api) {
             '@/components/ui': './app/components/ui',
             '@/shared/constants': './app/shared/constants',
             '@/shared/colors': './app/shared/colors',
+            '@/shared/types': './app/shared/types',
           },
         },
       ],
